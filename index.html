@@ -1,81 +1,279 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sébastien Martin — IT Freelance</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sébastien Martin — Technicien IT Freelance (Support, Microsoft, PowerShell) + Développement Web. Portfolio et contact." />
+  <title>Sébastien Martin — IT Freelance</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3ES%3C/text%3E%3C/svg%3E">
 </head>
 <body>
+  <a class="skip" href="#content">Aller au contenu</a>
 
-<header class="hero">
-    <h1>Sébastien Martin</h1>
-    <p>Technicien IT Freelance — Support • Infrastructure Microsoft • Automatisation • Web</p>
-    <div class="links">
-        <a href="https://github.com/Vortex-cybe" target="_blank">GitHub</a>
-        <a href="https://smaq.pages.dev" target="_blank">Site</a>
-        <a href="mailto:smaq.dev.web@gmail.com">Contact</a>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true">SM</div>
+        <div class="brand__text">
+          <div class="brand__name">Sébastien Martin</div>
+          <div class="brand__tag">IT Freelance • Liège</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn btn--ghost" href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--primary" href="mailto:smaq.dev.web@gmail.com?subject=Renfort%20IT%20Freelance%20%E2%80%94%20Contact">Me contacter</a>
+      </div>
     </div>
-</header>
+  </header>
 
-<section class="section">
-<h2>Profil</h2>
-<p>
-Technicien IT freelance basé en Belgique spécialisé dans le support utilisateurs,
-l'administration Microsoft (Active Directory, Microsoft 365), le dépannage réseau et
-l'automatisation PowerShell. J'interviens en renfort pour MSP et PME.
-</p>
-</section>
+  <main id="content" class="container">
+    <section class="hero">
+      <div class="hero__grid">
+        <div class="hero__left">
+          <p class="pill">Disponible • Renfort MSP / PME • Sur site & distance</p>
+          <h1>Renfort IT fiable pour <span class="accent">PME</span> et <span class="accent">MSP</span>.</h1>
+          <p class="hero__lead">
+            Support utilisateurs, administration Microsoft (Active Directory / Microsoft 365), déploiement de postes,
+            dépannage réseau et automatisation PowerShell. Bonus : compétences web pour projets et intégrations.
+          </p>
 
-<section class="section">
-<h2>Compétences</h2>
-<ul>
-<li>Support IT N1 / N2</li>
-<li>Active Directory / Microsoft 365</li>
-<li>Déploiement postes Windows</li>
-<li>Dépannage réseau (DNS, DHCP, TCP/IP)</li>
-<li>Automatisation PowerShell</li>
-<li>Virtualisation</li>
-<li>HTML / CSS / JavaScript</li>
-<li>React / Vite</li>
-<li>Cloudflare Workers / serverless</li>
-</ul>
-</section>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="tel:+32471497779">Appeler : 0471 49 77 79</a>
+            <a class="btn btn--ghost" href="#projets">Voir les projets</a>
+          </div>
 
-<section class="section">
-<h2>Projets Techniques</h2>
+          <div class="meta">
+            <div class="meta__item"><span>Base</span><strong>Liège (BE)</strong></div>
+            <div class="meta__item"><span>Facturation</span><strong>Smart / pro</strong></div>
+            <div class="meta__item"><span>Stack</span><strong>Microsoft • PowerShell • Web</strong></div>
+          </div>
+        </div>
 
-<div class="project">
-<h3>MSP Diagnostic Toolkit</h3>
-<p>Outils PowerShell pour diagnostic de parc informatique, analyse d'événements Windows et scoring de risques.</p>
-<a href="https://github.com/Vortex-cybe" target="_blank">Voir sur GitHub</a>
-</div>
+        <div class="hero__right">
+          <div class="card card--glow">
+            <div class="card__title">Résumé opérationnel</div>
+            <ul class="checklist">
+              <li>Support N1/N2 + communication client</li>
+              <li>AD : comptes, groupes, GPO (selon contexte)</li>
+              <li>M365 : onboarding, incidents, configuration</li>
+              <li>Déploiement postes / durcissement basique</li>
+              <li>Réseau : DNS/DHCP/TCP-IP, diag rapide</li>
+              <li>PowerShell : scripts MSP & automatisation</li>
+            </ul>
 
-<div class="project">
-<h3>Entre-Nous Platform</h3>
-<p>Application web avec backend API et frontend React permettant gestion sécurisée de données.</p>
-<a href="https://github.com/Vortex-cybe" target="_blank">Voir sur GitHub</a>
-</div>
+            <div class="card__footer">
+              <a class="mini" href="https://smaq.pages.dev" target="_blank" rel="noopener">Site : smaq.pages.dev</a>
+              <a class="mini" href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">GitHub : Vortex-cybe</a>
+            </div>
+          </div>
 
-<div class="project">
-<h3>SMAQ Cloud Architecture</h3>
-<p>Architecture serverless basée sur Cloudflare Workers, R2 et D1 pour déploiement rapide de solutions web.</p>
-<a href="https://github.com/Vortex-cybe" target="_blank">Voir sur GitHub</a>
-</div>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__kpi">24h</div>
+              <div class="stat__label">prise en main</div>
+            </div>
+            <div class="stat">
+              <div class="stat__kpi">MSP</div>
+              <div class="stat__label">mindset opérationnel</div>
+            </div>
+            <div class="stat">
+              <div class="stat__kpi">PS</div>
+              <div class="stat__label">automatisation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <section id="services" class="section">
+      <div class="section__head">
+        <h2>Services</h2>
+        <p>Ce que je prends en charge en renfort (ponctuel ou récurrent).</p>
+      </div>
 
-<section class="section contact">
-<h2>Contact</h2>
-<p>Email : smaq.dev.web@gmail.com</p>
-<p>Téléphone : 0471 49 77 79</p>
-<p>Localisation : Liège, Belgique</p>
-</section>
+      <div class="grid3">
+        <article class="tile">
+          <h3>Support & helpdesk</h3>
+          <p>Prise en charge incidents utilisateurs, triage, escalade, documentation, suivi.</p>
+          <ul>
+            <li>Ticketing & communication</li>
+            <li>Résolution N1/N2</li>
+            <li>Onboarding/offboarding</li>
+          </ul>
+        </article>
 
-<footer>
-<p>© Sébastien Martin — IT Freelance</p>
-</footer>
+        <article class="tile">
+          <h3>Microsoft / AD / M365</h3>
+          <p>Administration Microsoft, assistance aux opérations et stabilisation d’environnement.</p>
+          <ul>
+            <li>AD : comptes, groupes, GPO</li>
+            <li>M365 / Exchange Online</li>
+            <li>Durcissement basique</li>
+          </ul>
+        </article>
 
+        <article class="tile">
+          <h3>Déploiement & terrain</h3>
+          <p>Préparation / déploiement postes, dépannage réseau, interventions sur site.</p>
+          <ul>
+            <li>Imaging / provisioning</li>
+            <li>DNS/DHCP/TCP-IP</li>
+            <li>Backup / restauration</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="section__head">
+        <h2>Projets techniques</h2>
+        <p>Exemples concrets orientés production / démonstration.</p>
+      </div>
+
+      <div class="grid2">
+        <article class="project">
+          <div class="project__top">
+            <h3>MSP Diagnostic Toolkit (PowerShell)</h3>
+            <span class="badge">PowerShell</span>
+          </div>
+          <p>
+            Suite de scripts orientés MSP : diagnostic rapide, collecte d’infos système, analyse d’événements,
+            vérification backup, scoring risques basique.
+          </p>
+          <div class="project__links">
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">Repo GitHub</a>
+            <a class="btn btn--ghost btn--sm" href="#contact">Demander une démo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <h3>Entre-Nous (API + React)</h3>
+            <span class="badge">FastAPI • React</span>
+          </div>
+          <p>
+            Application web avec backend API et frontend moderne (Vite/React). Objectif : démontrer architecture,
+            auth, CORS, déploiement CI/CD.
+          </p>
+          <div class="project__links">
+            <a class="btn btn--ghost btn--sm" href="https://entre-nous-mvp.vercel.app" target="_blank" rel="noopener">Démo</a>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <h3>SMAQ Cloud (Workers / R2 / D1)</h3>
+            <span class="badge">Cloudflare</span>
+          </div>
+          <p>
+            Architecture serverless : API Worker, stockage R2, base D1, liens publics signés,
+            déploiement rapide et coûts maîtrisés.
+          </p>
+          <div class="project__links">
+            <a class="btn btn--ghost btn--sm" href="https://smaq.pages.dev" target="_blank" rel="noopener">Site</a>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <h3>Portfolio “Support IT & Sécurité PME — Liège”</h3>
+            <span class="badge">Web • SEO</span>
+          </div>
+          <p>
+            Vitrine claire orientée conversion : pages services, SEO local, formulaire contact,
+            conditions d’intervention (Smart, devis/bon pour accord).
+          </p>
+          <div class="project__links">
+            <a class="btn btn--ghost btn--sm" href="https://smaq.pages.dev" target="_blank" rel="noopener">Voir</a>
+            <a class="btn btn--ghost btn--sm" href="#contact">Obtenir le pack</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__head">
+        <h2>Stack</h2>
+        <p>Outils & compétences opérationnelles (résumé).</p>
+      </div>
+
+      <div class="chips">
+        <span class="chip">Windows</span>
+        <span class="chip">Active Directory</span>
+        <span class="chip">Microsoft 365</span>
+        <span class="chip">Exchange Online</span>
+        <span class="chip">PowerShell</span>
+        <span class="chip">DNS / DHCP</span>
+        <span class="chip">TCP/IP</span>
+        <span class="chip">Backup</span>
+        <span class="chip">Virtualisation</span>
+        <span class="chip">HTML/CSS/JS</span>
+        <span class="chip">React / Vite</span>
+        <span class="chip">Cloudflare</span>
+        <span class="chip">GitHub</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <div class="contact">
+        <div>
+          <h2>Contact</h2>
+          <p>
+            Besoin d’un renfort (urgence, surcharge helpdesk, déploiement, migration) ?
+            Le plus simple : appel direct ou email.
+          </p>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="tel:+32471497779">0471 49 77 79</a>
+            <a class="btn btn--ghost" href="mailto:smaq.dev.web@gmail.com?subject=Renfort%20IT%20Freelance%20%E2%80%94%20Contact">smaq.dev.web@gmail.com</a>
+          </div>
+          <p class="small">
+            Liège • interventions sur site (BE) + support à distance.
+          </p>
+        </div>
+
+        <div class="card card--soft">
+          <div class="card__title">Message “1 ligne”</div>
+          <p class="small">
+            « Technicien IT freelance dispo : support N1/N2, AD/M365, déploiements, PowerShell — Liège. »
+          </p>
+          <div class="divider"></div>
+          <div class="card__title">Liens</div>
+          <div class="links2">
+            <a href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://smaq.pages.dev" target="_blank" rel="noopener">Site</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span>© <span id="y"></span> Sébastien Martin</span>
+        <span class="dot">•</span>
+        <a href="mailto:smaq.dev.web@gmail.com">Contact</a>
+        <span class="dot">•</span>
+        <a href="https://github.com/Vortex-cybe" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
